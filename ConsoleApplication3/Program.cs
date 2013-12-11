@@ -24,6 +24,8 @@ namespace ConsoleApplication3
             //Console.WriteLine( chk("jko"));
            // SetMyName(th,9);
             B b1 = new B();
+            B hi = new B();
+            hi.Get();
             b1.Get();
             A a = new A();
             a.Get();
