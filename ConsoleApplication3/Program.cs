@@ -5,6 +5,7 @@ using System.Text;
 
 using System.Collections;
 using ConsoleApplication3.Behavioural_Patterns;
+using ConsoleApplication3.BrainTeasers;
 
 namespace ConsoleApplication3
 {
@@ -18,30 +19,33 @@ namespace ConsoleApplication3
             //array[0] = 10;
             //Action<string> aname = SetMyName;
             //aname("hj");
-           
+            M m = new M();
+            //N n = new N();
+            m.Print();
+           // n.Print();
                
             Func<string, int> chk = delegate(string x) { return x.Length; };
             //Console.WriteLine( chk("jko"));
            // SetMyName(th,9);
-            B b1 = new B();
-            B hi = new B();
-            hi.Get();
-            b1.Get();
-            A a = new A();
-            a.Get();
-            A v = new B();
-            v.Get();
-            ArrayList n = new ArrayList();
-            Creational_Patterns.Singleton.SingletonV.DoWork();
+            //B b1 = new B();
+            //B hi = new B();
+            //hi.Get();
+            //b1.Get();
+            //A a = new A();
+            //a.Get();
+            //A v = new B();
+            //v.Get();
+            //ArrayList n = new ArrayList();
+            //Creational_Patterns.Singleton.SingletonV.DoWork();
 
-            Creational_Patterns.Singleton.SingletonV.DoWork();
-            Approver manager = new Manager();
-            Approver sbuhead = new Sbuhead();
-            manager.Successor = sbuhead;
-            var request = new Request { RequestID = 1 };
-            var acType=new ActionType{ ActionName="approved"};
-            var acRequest = new RequestAction { RequestID = 1, action = acType };
-            manager.ProcessRequest(acRequest);
+            //Creational_Patterns.Singleton.SingletonV.DoWork();
+            //Approver manager = new Manager();
+            //Approver sbuhead = new Sbuhead();
+            //manager.Successor = sbuhead;
+            //var request = new Request { RequestID = 1 };
+            //var acType=new ActionType{ ActionName="approved"};
+            //var acRequest = new RequestAction { RequestID = 1, action = acType };
+            //manager.ProcessRequest(acRequest);
             Console.ReadLine();
         }
         public static int  chko(string oo)
